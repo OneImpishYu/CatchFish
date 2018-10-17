@@ -1,0 +1,80 @@
+!SESSION 2016-07-06 09:32:01.806 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2016-07-06 09:32:02.474
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.jface 2 0 2016-07-06 09:32:30.300
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-07-06 09:32:30.300
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@10fcdf3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2016-07-06 09:32:30.455
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.core.common 1 0 2016-07-06 09:32:30.466
+!MESSAGE Missing action set: com.genuitec.eclipse.dashboard
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:35.802
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:37.255
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:37.479
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:37.705
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:37.978
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:38.252
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:41.034
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:41.341
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:41.711
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:43.284
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-07-06 09:32:43.676
+!MESSAGE Installed snippet library: C:\Users\j\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY com.genuitec.eclipse.core.common 1 0 2016-07-06 09:32:43.739
+!MESSAGE Missing action set: 
